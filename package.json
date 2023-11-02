@@ -1,0 +1,38 @@
+{
+  "name": "front-end-automation-tests",
+  "description": "Front End UI Testing with Cypress for learning",
+  "os": ["win32"],
+  "scripts": {
+    "cy:open": "cypress open",
+    "spec:todo": "cypress run --headed --no-exit --spec cypress/e2e/1-getting-started/todo.cy.js",
+    "spec:actions": "cypress run --headed --no-exit --spec cypress/e2e/2-advanced-examples/actions.cy.js",
+    "spec:aliasing": "cypress run --headed --no-exit --spec cypress/e2e/2-advanced-examples/aliasing.cy.js",
+    "spec:assertions": "cypress run --headed --no-exit --spec cypress/e2e/2-advanced-examples/assertions.cy.js",
+    "spec:connectors": "cypress run --headed --no-exit --spec cypress/e2e/2-advanced-examples/connectors.cy.js",
+    "spec:cookies": "cypress run --headed --no-exit --spec cypress/e2e/2-advanced-examples/cookies.cy.js",
+    "spec:cypress_api": "cypress run --headed --no-exit --spec cypress/e2e/2-advanced-examples/cypress_api.cy.js",
+    "spec:files": "cypress run --headed --no-exit --spec cypress/e2e/2-advanced-examples/files.cy.js",
+    "spec:location": "cypress run --headed --no-exit --spec cypress/e2e/2-advanced-examples/location.cy.js",
+    "spec:misc": "cypress run --headed --no-exit --spec cypress/e2e/2-advanced-examples/misc.cy.js",
+    "spec:navigation": "cypress run --headed --no-exit --spec cypress/e2e/2-advanced-examples/navigation.cy.js",
+    "spec:network_requests": "cypress run --headed --no-exit --spec cypress/e2e/2-advanced-examples/network_requests.cy.js",
+    "spec:querying": "cypress run --headed --no-exit --spec cypress/e2e/2-advanced-examples/querying.cy.js",
+    "spec:spies_stubs_clocks": "cypress run --headed --no-exit --spec cypress/e2e/2-advanced-examples/spies_stubs_clocks.cy.js",
+    "spec:storage": "cypress run --headed --no-exit --spec cypress/e2e/2-advanced-examples/storage.cy.js",
+    "spec:traversal": "cypress run --headed --no-exit --spec cypress/e2e/2-advanced-examples/traversal.cy.js",
+    "spec:utilities": "cypress run --headed --no-exit --spec cypress/e2e/2-advanced-examples/utilities.cy.js",
+    "spec:viewport": "cypress run --headed --no-exit --spec cypress/e2e/2-advanced-examples/viewport.cy.js",
+    "spec:waiting": "cypress run --headed --no-exit --spec cypress/e2e/2-advanced-examples/waiting.cy.js",
+    "spec:window": "cypress run --headed --no-exit --spec cypress/e2e/2-advanced-examples/window.cy.js",
+
+    "spec:hello_world": "cypress run --headed --no-exit --spec cypress/e2e/projects/hello_world.cy.js"
+  },
+  "devDependencies": {
+    "cypress": "^13.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StephenBirsa/FrontEndAutomationTests"
+  },
+  "author": "Stephen Birsa"
+}
