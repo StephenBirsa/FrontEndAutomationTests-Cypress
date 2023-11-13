@@ -25,7 +25,8 @@
     "spec:waiting": "cypress run --headed --no-exit --spec cypress/e2e/2-advanced-examples/waiting.cy.js",
     "spec:window": "cypress run --headed --no-exit --spec cypress/e2e/2-advanced-examples/window.cy.js",
 
-    "spec:hello_world": "cypress run --headed --no-exit --spec cypress/e2e/projects/hello_world.cy.js"
+    "spec:hello_world": "cypress run --headed --no-exit --spec cypress/e2e/hello_world.cy.js",
+    "spec:test1": "cypress run --headed --no-exit --spec cypress/e2e/spec.cy.js"
   },
   "devDependencies": {
     "cypress": "^13.4.0"
