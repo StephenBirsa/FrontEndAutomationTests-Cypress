@@ -1,5 +1,5 @@
-# FrontEndAutomationTests
-Front End UI Testing with Cypress for learning.
+# FrontEndAutomationTests-Cypress
+Front End UI Testing with Cypress tests.
 
 Configured for use on a Windows Machine.
 
