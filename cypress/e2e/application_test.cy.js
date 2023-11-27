@@ -11,9 +11,5 @@ describe('Application - End to End Flow', () => {
       appPage1.loadWebsite();
       appPage1.validatePageElements();
     })
-
-    //it('Validate Second Page', () => {
-
-    //})
   });
   

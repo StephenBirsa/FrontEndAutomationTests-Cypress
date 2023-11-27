@@ -9,5 +9,10 @@ export class AppPage1 {
 
     validatePageElements() {
         cy.title().should('eq', 'Home Page');
+        cy.get('[data-cy=red]').click();
+        cy.get('[data-cy=green]').click();
+        cy.get('[data-cy=blue]').click();
+        cy.get('[data-cy=purple]').click();
+        cy.get('[data-cy=black]').click();
     }
 }

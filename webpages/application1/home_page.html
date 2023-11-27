@@ -8,34 +8,47 @@
         <title>Home Page</title>
     </head>
 
-    <body>
+    <body id="body">
         <header>
             <h1>Jango</h1>
         </header>
 
         <nav>
             <a href="./home_page.html">Home Page</a>
-            <a href="./products.html">Products</a>
-            <a href="./about.html">About</a>
-            <a href="./contact.html">Contact</a>
-            <a href="./tac.html">Terms and Conditions</a>
         </nav>
+
+        <script>
+            function changeColour(number) {
+                var col = document.getElementById("body");
+                if (number === 1) {
+                    col.style.backgroundColor = "red";
+                } else if (number === 2) {
+                    col.style.backgroundColor = "green";
+                } else if (number === 3) {
+                    col.style.backgroundColor = "blue";
+                } else if (number === 4) {
+                    col.style.backgroundColor = "purple";
+                } else if (number === 5) {
+                    col.style.backgroundColor = "black";
+                }
+            }
+        </script>
 
         <p>
             <div>
-                <button type="button">Red</button>
+                <button type="button" onclick="changeColour(1)" data-cy="red">Red</button>
             </div>
             <div>
-                <button type="button">Green</button>
+                <button type="button" onclick="changeColour(2)" data-cy="green">Green</button>
             </div>
             <div>
-                <button type="button">Blue</button>
+                <button type="button" onclick="changeColour(3)" data-cy="blue">Blue</button>
             </div>
             <div>
-                <button type="button">Purple</button>
+                <button type="button" onclick="changeColour(4)" data-cy="purple">Purple</button>
             </div>
             <div>
-                <button type="button">Black</button>
+                <button type="button" onclick="changeColour(5)" data-cy="black">Black</button>
             </div>
         </p>
     </body>
